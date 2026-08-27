@@ -1,0 +1,29 @@
+{
+  "features": [
+    "station_sequence",
+    "scheduled_distance_km",
+    "current_delay_min",
+    "section_avg_delay_min",
+    "weather_severity",
+    "is_weekend",
+    "hour_of_day",
+    "priority_score",
+    "platform_congestion",
+    "num_stops_so_far",
+    "halts_scheduled_min",
+    "delay_recovery_rate",
+    "time_since_origin_min",
+    "cumulative_halt_min",
+    "hour_sin",
+    "hour_cos",
+    "train_type",
+    "station_code",
+    "day_of_week"
+  ],
+  "categorical": [
+    "train_type",
+    "station_code",
+    "day_of_week"
+  ],
+  "target": "arrival_delay_min"
+}
